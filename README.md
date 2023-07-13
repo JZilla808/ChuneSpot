@@ -1,4 +1,28 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+ChuneSpot - A music streaming app built with Next.js, Supabase, and Stripe
+
+ChuneSpot is a music streaming web application inspired by Spotify and SoundCloud. It allows users to stream music and like songs. It also enables artists to upload and host their music to share with fans.
+
+This project was built using:
+
+Next.js - For server-side rendering and routing
+Supabase - For user management and database
+Stripe - For subscriptions and payments
+React Hooks - For state management
+Tailwind CSS - For styling
+Some key features include:
+
+User authentication with Supabase
+Music playback with custom audio player
+Music uploads and hosting via Supabase storage
+Like songs
+Search songs by title and filter by artist
+Premium subscriptions with StripeCheckout
+Responsive design with TailwindCSS
+This app demonstrates fetching data from Supabase, integrating payments with Stripe, building reusable React components, managing state with React Hooks, and implementing responsive design with Tailwind.
+
+The code is structured into intuitive folders and components for maintainability and extensibility. Custom hooks encapsulate complex logic. Typescript provides type safety.
+
+Overall, this project showcases modern web development techniques with Next.js and Supabase to build a fast, dynamic music streaming application.
 
 ## Getting Started
 
